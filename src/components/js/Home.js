@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Grid, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "../css/Home.css";
 
 class Home extends Component {
   render() {
     return (
-      <Grid>
-        <Jumbotron>
+      <Container>
           <h2>Sampaje Valley Power.</h2>
           <p>
             Short description about this Sampaje Valley Power. Rest can be written in About. <br></br>
@@ -17,7 +16,6 @@ class Home extends Component {
           {/* <Link to="/about">
             <Button bsStyle="primary">About</Button>
           </Link> */}
-        </Jumbotron>
         {/* <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
             <Image src="assets/person-1.jpg" circle className="profile-pic" />
@@ -37,7 +35,7 @@ class Home extends Component {
           </Col>
         </Row> */}
         <p>Display the links embed in fancy fonts maybe.</p>
-      </Grid>
+      </Container>
     );
   }
 }

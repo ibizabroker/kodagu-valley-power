@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "../css/Contact.css";
-import { Grid, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Container>
           {/* <h2>Contact</h2> */}
           <Col xs={12} sm={8} smOffset={0}>
             <Image
@@ -29,7 +29,7 @@ class Contact extends Component {
               "As Consultant Energy Solutions" had the previlage of studying Power System Constraints in Kodagu both in Urban and Rural Areas spread over the Western Ghat hilly regions.
             </p>
           </Col>
-        </Grid>
+        </Container>
       </div>
     );
   }
