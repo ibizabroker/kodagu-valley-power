@@ -39,15 +39,15 @@ export default class Footer extends Component {
 
                   <div class="container text-center text-md-start mt-5">
                     <div class="row mt-3">
-                      
+
                       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                          {/* <i class="fas fa-gem me-3"></i>*/}sampaje valley power
+                          {/* <i class="fas fa-gem me-3"></i>*/}kodagu valley power
                         </h6>
                         <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "195px" }} />
                         <p>
-                          Here you can give a brief description about the company. Around 3-4
-                          lines will be enough. After about link the products .
+                          Study of distribution system of Rural Karnataka
+                           and recommend remidial measures in public interest.
                         </p>
                       </div>
 
@@ -62,12 +62,6 @@ export default class Footer extends Component {
                         <p>
                           <a href="#!" class="text-reset">Product 2</a>
                         </p>
-                        <p>
-                          <a href="#!" class="text-reset">Product 3</a>
-                        </p>
-                        <p>
-                          <a href="#!" class="text-reset">Product 4</a>
-                        </p>
                       </div>
 
                       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -77,7 +71,11 @@ export default class Footer extends Component {
                         <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "73px" }} />
                         <p>
                           <i class="fas fa-envelope me-3"></i>
-                          rathanbabu@gmail.com
+                          ratankilar@gmail.com
+                        </p>
+                        <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          ratan_babu@hotmail.com
                         </p>
                         <p><i class="fas fa-phone me-3"></i>+ 91 94487 20722</p>
                       </div>
@@ -89,7 +87,7 @@ export default class Footer extends Component {
 
                 <div class="text-center p-4 elegant-color-dark">
                   © 2021 Copyright:
-                  <strong> Sampaje Valley Power </strong>
+                  <strong> Kodagu Valley Power </strong>
                 </div>
                 
               </footer>
