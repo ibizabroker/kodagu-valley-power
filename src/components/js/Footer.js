@@ -1,87 +1,99 @@
 import React, { Component } from 'react'
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 export default class Footer extends Component {
     render() {
         return (
-            <MDBFooter color="unique-color-dark" className="font-small pt-4 mt-4">
-              <MDBContainer className="text-center text-md-left">
-                <MDBRow className="text-center text-md-left mt-3 pb-3">
-                  <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
-                    <h6 className="text-uppercase mb-4 font-weight-bold">
-                      sampaje valley power
-                    </h6>
-                    <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "195px" }} />
-                    <p>
-                      A short description for the footer, around 3 lines will do. asdfa dsfads fa adsf af af af df afasfadsf adsf adsf adsf adfsa fadf.
-                    </p>
-                  </MDBCol>
-                  <hr className="w-100 clearfix d-md-none" />
-                  <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
-                    <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
-                    <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "85px" }} />
-                    <p>
-                      <a href="#!">Product 1</a>
-                    </p>
-                    <p>
-                      <a href="#!">Product 2</a>
-                    </p>
-                    <p>
-                      <a href="#!">Product 3</a>
-                    </p>
-                    <p>
-                      <a href="#!">Product 4</a>
-                    </p>
-                  </MDBCol>
-                  <hr className="w-100 clearfix d-md-none" />
-                  <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
-                    <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "73px" }} />
-                    <p>
-                      <i className="fa fa-envelope mr-3" /> rathanbabu@gmail.com
-                    </p>
-                    <p>
-                      <i className="fa fa-phone mr-3" /> + 91 94487 20722
-                    </p>
-                  </MDBCol>
-                </MDBRow>
-                <hr />
-                <MDBRow className="d-flex align-items-center">
-                  <MDBCol md="8" lg="8">
-                    <p className="text-center text-md-left grey-text">
-                      &copy; {new Date().getFullYear()} Copyright:{" "}
-                      SAMPAJE VALLEY POWER
-                    </p>
-                  </MDBCol>
-                  <MDBCol md="4" lg="4" className="ml-lg-0">
-                    <div className="text-center text-md-right">
-                      <ul className="list-unstyled list-inline">
-                        <li className="list-inline-item">
-                          <a href="#" target="_blank" className="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="#" target="_blank" className="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="#" target="_blank" className="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i className="fab fa-google-plus" />
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="#" target="_blank" className="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                      </ul>
+            <div>
+              <footer class="text-center text-lg-start elegant-color text-white">  
+                
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> 
+
+                  <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with me on social networks:</span>
+                  </div>
+
+                  <div>
+                    <a href="" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-google"></i>
+                    </a>
+                    {/* <a href="" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-instagram"></i>
+                    </a> */}
+                    <a href="" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/tarun-gowda" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+
+                </section>
+
+                <section class="">
+
+                  <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                      
+                      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          {/* <i class="fas fa-gem me-3"></i>*/}sampaje valley power
+                        </h6>
+                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "195px" }} />
+                        <p>
+                          Here you can give a brief description about the company. Around 3-4
+                          lines will be enough. After about link the products .
+                        </p>
+                      </div>
+
+                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Products
+                        </h6>
+                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "85px" }} />
+                        <p>
+                          <a href="#!" class="text-reset">Product 1</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Product 2</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Product 3</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Product 4</a>
+                        </p>
+                      </div>
+
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Contact
+                        </h6>
+                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "73px" }} />
+                        <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          rathanbabu@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>+ 91 94487 20722</p>
+                      </div>
+
                     </div>
-                  </MDBCol>
-                </MDBRow>
-              </MDBContainer>
-            </MDBFooter>
+                  </div>
+
+                </section>
+
+                <div class="text-center p-4 elegant-color-dark">
+                  © 2021 Copyright:
+                  <strong> Sampaje Valley Power </strong>
+                </div>
+                
+              </footer>
+            </div>
           );
     }
 }
