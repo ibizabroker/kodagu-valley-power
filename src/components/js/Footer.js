@@ -87,7 +87,7 @@ export default class Footer extends Component {
 
                 <div class="text-center p-4 elegant-color-dark">
                   © 2021 Copyright:
-                  <strong> Kodagu Valley Power </strong>
+                  <strong> KODAGU VALLEY POWER </strong>
                 </div>
                 
               </footer>
