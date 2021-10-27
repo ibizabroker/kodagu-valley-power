@@ -22,9 +22,6 @@ export default class Footer extends Component {
                     <a href="" target="_blank" class="me-4 text-reset">
                       <i class="fab fa-google"></i>
                     </a>
-                    {/* <a href="" target="_blank" class="me-4 text-reset">
-                      <i class="fab fa-instagram"></i>
-                    </a> */}
                     <a href="" target="_blank" class="me-4 text-reset">
                       <i class="fab fa-linkedin"></i>
                     </a>
@@ -37,12 +34,12 @@ export default class Footer extends Component {
 
                 <section class="">
 
-                  <div class="container text-center text-md-start mt-5">
+                  <div class="container text-md-start mt-5">
                     <div class="row mt-3">
 
                       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                          {/* <i class="fas fa-gem me-3"></i>*/}kodagu valley power
+                          kodagu valley power
                         </h6>
                         <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "195px" }} />
                         <p>

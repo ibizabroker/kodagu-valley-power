@@ -1,43 +1,63 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import "../css/Home.css";
+import React from "react";
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from "mdbreact";
 
-class Home extends Component {
-  render() {
-    return (
-      <Container>
-          <h2>Sampaje Valley Power.</h2>
-          <p>
-            Short description about this Sampaje Valley Power. Rest can be written in About. <br></br>
-            Can add links to the docs in this home page. <br></br>
-            API to maybe display the preview of google sheets?
-          </p>
-          {/* <Link to="/about">
-            <Button bsStyle="primary">About</Button>
-          </Link> */}
-        {/* <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-1.jpg" circle className="profile-pic" />
-            <h2> Frank </h2>
-            <p>This is a random one that I am learning.</p>
-          </Col>
-
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-2.jpg" circle className="profile-pic" />
-            <h2> Marie </h2>
-            <p>This is a random one that I am learning.</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-3.jpg" circle className="profile-pic" />
-            <h2> Sujan </h2>
-            <p>This is a random one that I am learning.</p>
-          </Col>
-        </Row> */}
-        <p>Display the links embed in fancy fonts maybe.</p>
-      </Container>
-    );
-  }
+const Home = () => {
+  return (
+    // <MDBContainer>
+      <MDBCarousel
+      activeItem={1}
+      length={3}
+      showControls={true}
+      showIndicators={true}
+      className="z-depth-1"
+    >
+      <MDBCarouselInner>
+        <MDBCarouselItem itemId="1">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">Light mask</h3>
+            <p>First text</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="2">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+              alt="Second slide"
+            />
+          <MDBMask overlay="black-strong" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">Strong mask</h3>
+            <p>Second text</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="3">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+              alt="Third slide"
+            />
+          <MDBMask overlay="black-slight" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">Slight Mast</h3>
+            <p>Third text</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+      </MDBCarouselInner>
+    </MDBCarousel>
+    // </MDBContainer>
+  );
 }
 
 export default Home;
