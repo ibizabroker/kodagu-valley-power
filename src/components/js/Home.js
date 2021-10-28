@@ -16,42 +16,40 @@ const Home = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              src="assets/kodagu-frontpage.png"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Light mask</h3>
-            <p>First text</p>
+            <h3 className="h3-responsive">KODAGU District</h3>
+            {/* <p>Description</p> */}
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+              src="assets/KFG_GRID.png"
               alt="Second slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Strong mask</h3>
-            <p>Second text</p>
+            <h3 className="h3-responsive">66 and 33kV Networks of KODAGU District</h3>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+              src="assets/transmission-lines.png"
               alt="Third slide"
             />
-          <MDBMask overlay="black-slight" />
+          <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
+            <h3 className="h3-responsive">Transmission Lines</h3>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>
