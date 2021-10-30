@@ -61,10 +61,10 @@ const Home = () => {
     <MDBContainer>
     <section className="text-center my-5">
       <h2 className="h1-responsive font-weight-bold my-5">
-        My projects
+        Power Projects
       </h2>
       <p className="grey-text w-responsive mx-auto mb-5">
-        Description
+        KODAGU District
       </p>
 
       <MDBRow className="text-center">
@@ -73,7 +73,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg"
+              src="assets/KFG_GRID-1.png"
               alt=""
               className="img-fluid"
             />
@@ -82,17 +82,31 @@ const Home = () => {
             </a>
           </MDBView>
           <MDBCardBody className="pb-0">
-            <h4 className="font-weight-bold my-3">Title of the project</h4>
+            <h4 className="font-weight-bold my-3">Sampaje 66/11 KV 12.50 MVA</h4>
             <p className="grey-text">
-              Laborum mollit cillum ullamco consectetur qui dolor enim magna ipsum occaecat labore. 
-              Lorem quis mollit incididunt id laborum id consectetur cupidatat ullamco laborum consectetur proident. 
-              Nostrud consectetur velit reprehenderit incididunt ut ut adipisicing proident laboris irure. 
-              Eu nostrud consequat in enim. Tempor consequat eiusmod ex veniam. 
-              Proident duis proident proident amet ex commodo duis dolore dolor esse enim aliquip adipisicing incididunt.
+              <ul className="text-left">
+                <li>Proposed to tap Madikeri-Bhagamandala line at Madenadu with tapping structure for 21 kms on narrow based towers.</li> 
+                <li>Will improve voltage to power consumers of Mel Chembu, Uru Bylu Chembu, Sampaje and Peraje and Arekallu.</li>
+                <li>Will reduce energy loss to the tune of 15 Lakh Units per Annum to CESCOM.</li>
+                <li>Provide infrastructure to cater power to new prospective MSME and promote rural economy.</li>
+                <li>Benefit students and young scholars of rural parts of Western Ghat remote Villages deprived of social benefits.</li>
+              </ul>
             </p>
-            <MDBBtn color="black" size="md" className="white-text">
-              {/* <MDBIcon far icon="clone" className="left" /> View Project */}
-              View Project
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text" 
+              href="https://docs.google.com/spreadsheets/d/1oyzVAB3ewLM0B1SuXXReK6jqjyicnXz1/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
+            >
+              Present System
+            </MDBBtn>
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text" 
+              href="https://docs.google.com/spreadsheets/d/1Wy37XSYDgFlaHExz3TOlZS21RScgMQtX/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
+            >
+              After Improvement
             </MDBBtn>
           </MDBCardBody>
           </MDBCard>
@@ -102,7 +116,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="https://mdbootstrap.com/img/Photos/Others/project4.jpg"
+              src="assets/KFG_GRID-1.png"
               alt=""
               className="img-fluid"
             />
@@ -111,17 +125,33 @@ const Home = () => {
             </a>
           </MDBView>
           <MDBCardBody className="pb-0">
-            <h4 className="font-weight-bold my-3">Title of the project</h4>
+            <h4 className="font-weight-bold my-3">Maragodu 66/11 KV 8.00 MVA</h4>
             <p className="grey-text">
-              Laborum mollit cillum ullamco consectetur qui dolor enim magna ipsum occaecat labore. 
-              Lorem quis mollit incididunt id laborum id consectetur cupidatat ullamco laborum consectetur proident. 
-              Nostrud consectetur velit reprehenderit incididunt ut ut adipisicing proident laboris irure. 
-              Eu nostrud consequat in enim. Tempor consequat eiusmod ex veniam. 
-              Proident duis proident proident amet ex commodo duis dolore dolor esse enim aliquip adipisicing incididunt.
+              <ul className="text-left">
+                <li>Proposed to tap Madikeri-Virajpet 66 transmission line by LILO.</li>
+                <li>Will improve voltage and power system to agriculturist of Arekadu, Kattemadu, Hoskeri, Maragodu, Hulithada, Hakatthuru, Biligeri Villages.</li>
+                <li>Will reduce energy loss to the tune of 6 Lakh Units per Annum to CESCOM and promote industrial growth.</li>
+                <li>Facilitate storage of Horticulture products(Anthoruim) and other exotic fruits.</li>
+                <li>Provide facility for coffee curing and processing units.</li>
+              </ul>
             </p>
-            <MDBBtn color="black" size="md" className="white-text">
-              View Project
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text"
+              href=""  
+            >
+              Present system
             </MDBBtn>
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text"
+              href=""  
+            >
+              After Improvement
+            </MDBBtn>
+
           </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -130,7 +160,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg"
+              src="assets/KFG_GRID-1.png"
               alt=""
               className="img-fluid"
             />
@@ -139,16 +169,20 @@ const Home = () => {
             </a>
           </MDBView>
           <MDBCardBody className="pb-0">
-            <h4 className="font-weight-bold my-3">Title of the project</h4>
+            <h4 className="font-weight-bold my-3">NAPOKLU Hobli</h4>
             <p className="grey-text">
-              Laborum mollit cillum ullamco consectetur qui dolor enim magna ipsum occaecat labore. 
-              Lorem quis mollit incididunt id laborum id consectetur cupidatat ullamco laborum consectetur proident. 
-              Nostrud consectetur velit reprehenderit incididunt ut ut adipisicing proident laboris irure. 
-              Eu nostrud consequat in enim. Tempor consequat eiusmod ex veniam. 
-              Proident duis proident proident amet ex commodo duis dolore dolor esse enim aliquip adipisicing incididunt.
+              <ul className="text-left">
+              <li>At present Napoklu Hobli Headquaters and surrounding villages of Hoddur, Nelaji, Parane, Balamuri and fed from Murnad substation.</li>
+              <li>To conduct ficibility study and audit of feeders and examine the needs for improvements.</li>
+              </ul>
             </p>
-            <MDBBtn color="black" size="md" className="white-text">
-              View Project
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text"
+              href="http://wikiedit.org/India/Napoklu/221739/"
+            >
+              Project Under Study
             </MDBBtn>
           </MDBCardBody>
           </MDBCard>
