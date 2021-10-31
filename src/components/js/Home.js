@@ -1,6 +1,10 @@
 import React from "react";
+import slide1 from "../assets/kodagu-frontpage.png"
+import slide2 from "../assets/KFG_GRID_2_front.png"
+import slide3 from "../assets/transmission-lines.png"
+import cardpic from "../assets/KFG_GRID_2.png"
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, 
-  MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon } from "mdbreact";
+  MDBBtn, MDBCard, MDBCardBody, MDBCol, MDBRow } from "mdbreact";
 
 const Home = () => {
   return (
@@ -18,7 +22,7 @@ const Home = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="assets/kodagu-frontpage.png"
+              src={slide1}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -32,7 +36,7 @@ const Home = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="assets/KFG_GRID.png"
+              src={slide2}
               alt="Second slide"
             />
           <MDBMask overlay="black-light" />
@@ -45,7 +49,7 @@ const Home = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="assets/transmission-lines.png"
+              src={slide3}
               alt="Third slide"
             />
           <MDBMask overlay="black-light" />
@@ -73,7 +77,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="assets/KFG_GRID-1.png"
+              src={cardpic}
               alt=""
               className="img-fluid"
             />
@@ -116,7 +120,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="assets/KFG_GRID-1.png"
+              src={cardpic}
               alt=""
               className="img-fluid"
             />
@@ -160,7 +164,7 @@ const Home = () => {
           <MDBCard>
           <MDBView className="overlay rounded z-depth-1" waves>
             <img
-              src="assets/KFG_GRID-1.png"
+              src={cardpic}
               alt=""
               className="img-fluid"
             />

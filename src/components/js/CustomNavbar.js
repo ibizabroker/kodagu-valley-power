@@ -25,10 +25,7 @@ render() {
               <MDBNavLink to="/">HOME</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/about">ABOUT</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="/contact">CONTACT</MDBNavLink>
+              <MDBNavLink to="/aboutme">ABOUT ME</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

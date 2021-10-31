@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/js/Home";
-import About from "./components/js/About";
-import Contact from "./components/js/Contact";
+import Aboutme from "./components/js/Aboutme";
 import CustomNavbar from "./components/js/CustomNavbar";
 import Footer from "./components/js/Footer"
 
@@ -14,8 +13,7 @@ class App extends Component {
         <div>
           <CustomNavbar />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/aboutme" component={Aboutme} />
           <Footer />
         </div>
       </Router>
