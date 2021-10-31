@@ -13,17 +13,14 @@ export default class Footer extends Component {
                   </div>
 
                   <div>
-                    <a href="" target="_blank" class="me-4 text-reset">
+                    <a href="https://www.facebook.com/rathan.kilar" target="_blank" class="me-4 text-reset">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="" target="_blank" class="me-4 text-reset">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" target="_blank" class="me-4 text-reset">
-                      <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" target="_blank" class="me-4 text-reset">
+                    <a href="https://www.linkedin.com/in/rathanbabu-kilar" target="_blank" class="me-4 text-reset">
                       <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/rathanbabu10" target="_blank" class="me-4 text-reset">
+                      <i class="fab fa-twitter"></i>
                     </a>
                     <a href="https://github.com/tarun-gowda" target="_blank" class="me-4 text-reset">
                       <i class="fab fa-github"></i>
@@ -50,14 +47,14 @@ export default class Footer extends Component {
 
                       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                          Products
+                          Projects
                         </h6>
                         <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "85px" }} />
                         <p>
-                          <a href="#!" class="text-reset">Product 1</a>
+                          <a href="https://docs.google.com/spreadsheets/d/1Wy37XSYDgFlaHExz3TOlZS21RScgMQtX/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true" class="text-reset">Project 1</a>
                         </p>
                         <p>
-                          <a href="#!" class="text-reset">Product 2</a>
+                          <a href="#!" class="text-reset">Project 2</a>
                         </p>
                       </div>
 

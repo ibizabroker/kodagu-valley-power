@@ -81,7 +81,7 @@ const Home = () => {
               alt=""
               className="img-fluid"
             />
-            <a href="#!">
+            <a href="https://docs.google.com/spreadsheets/d/1rX6Sm-TkFH6s_eHrrXxcPG05Gy8mcOCP/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true">
               <MDBMask overlay="white-slight" />
             </a>
           </MDBView>
@@ -103,6 +103,14 @@ const Home = () => {
               href="https://docs.google.com/spreadsheets/d/1oyzVAB3ewLM0B1SuXXReK6jqjyicnXz1/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
             >
               Present System
+            </MDBBtn>
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text" 
+              href="https://docs.google.com/spreadsheets/d/1rX6Sm-TkFH6s_eHrrXxcPG05Gy8mcOCP/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
+            >
+              KPTCL Write Up
             </MDBBtn>
             <MDBBtn 
               color="black" 
