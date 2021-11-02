@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../css/Aboutme.css";
 import profilepic from "../assets/profile-pic.png"
 import sullia from "../assets/sullia-taluk-1.png"
-import { MDBContainer, MDBCol, MDBRow, MDBBadge } from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow, MDBBadge, MDBBtn } from "mdbreact";
 import { Accordion, Image } from "react-bootstrap"
 
 class Aboutme extends Component {
@@ -101,7 +101,17 @@ class Aboutme extends Component {
           <MDBCol></MDBCol>
         </MDBRow>
         <br></br>
-      
+        
+      <MDBCol className="text-center">
+      <h4 className="text-center">About KODAGU</h4>
+      <MDBBtn 
+        href="https://docs.google.com/document/d/1X40LLsfD6aZEn5x97Yb9eDAzV3oirs8wnAUpdHa0g9U/edit?usp=drivesdk"
+        color="info"
+      >
+        Read
+      </MDBBtn>
+      </MDBCol>
+
       </MDBContainer>
       </div>
     );
