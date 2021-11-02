@@ -13,16 +13,16 @@ export default class Footer extends Component {
                   </div>
 
                   <div>
-                    <a href="https://www.facebook.com/rathan.kilar" target="_blank" class="me-4 text-reset">
+                    <a href="https://www.facebook.com/rathan.kilar" class="me-4 text-reset">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/rathanbabu-kilar" target="_blank" class="me-4 text-reset">
+                    <a href="https://www.linkedin.com/in/rathanbabu-kilar" class="me-4 text-reset">
                       <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://twitter.com/rathanbabu10" target="_blank" class="me-4 text-reset">
+                    <a href="https://twitter.com/rathanbabu10" class="me-4 text-reset">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://github.com/tarun-gowda" target="_blank" class="me-4 text-reset">
+                    <a href="https://github.com/tarun-gowda" class="me-4 text-reset">
                       <i class="fab fa-github"></i>
                     </a>
                   </div>

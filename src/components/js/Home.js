@@ -1,4 +1,6 @@
 import React from "react";
+import Table from "./Table"
+import Table2 from "./Table2"
 import slide1 from "../assets/kodagu-frontpage.png"
 import slide2 from "../assets/KFG_GRID_2_front.png"
 import slide3 from "../assets/transmission-lines.png"
@@ -201,6 +203,29 @@ const Home = () => {
         </MDBCol>
       </MDBRow>
     </section>
+
+    <h4>11KV ARANTHODU Feeder: SULYA</h4>
+    <Table />
+    <p>
+      <strong>Total - </strong>
+      Distance in kms: 24.05, 
+      Load in KVA: 2986
+    </p>
+    <br></br>
+
+    <h4>Proposal: 66/11 KV 12.5 MVA Substation</h4>
+    <Table2 />
+    <p>
+      <strong>Energy received in F8-Feeder: </strong>
+      4451560
+      <br></br>
+      <strong>Energy Export at GADIKALLU: </strong>
+      -1012038
+      <br></br>
+      <strong>Import from Sulya to PERAJE: </strong>
+      980000
+    </p>
+    <br></br>
     </MDBContainer>
   </div>
   );
