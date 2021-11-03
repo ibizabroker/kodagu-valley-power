@@ -1,8 +1,8 @@
 import React from 'react';
-import { MDBDataTableV5 } from 'mdbreact';
+import { MDBDataTable } from 'mdbreact';
 
 export default function Table() {
-  const [datatable, setDatatable] = React.useState({
+  const [data] = React.useState({
     columns: [
       {
         label: 'Node',
@@ -268,5 +268,14 @@ export default function Table() {
     ],
   });
 
-  return <MDBDataTableV5 hover entriesOptions={[5, 10, 15]} entries={5} pagesAmount={4} data={datatable} />;
+  return (<MDBDataTable
+    responsive
+    bordered
+    noBottomColumns
+    hover
+    entriesOptions={[5, 10, 15]}
+    theadColor="grey"
+    theadTextWhite
+    data={data}
+  />) 
 }
