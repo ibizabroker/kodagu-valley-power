@@ -48,8 +48,8 @@ class Aboutme extends Component {
         </MDBRow>
 
         <MDBRow>
-          <MDBCol></MDBCol>
-          <MDBCol size="8" className="text-justify">
+          {/* <MDBCol></MDBCol>
+          <MDBCol size="8" className="text-left"> */}
           <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
             <Accordion.Header>Profile</Accordion.Header>
@@ -91,14 +91,14 @@ class Aboutme extends Component {
             <Accordion.Header>Social Links</Accordion.Header>
             <Accordion.Body>
             <ul>
-              <li>Life Member Karnataka Electricity Board Engineers Association</li>
-              <li>Fellow of Institution of Engineers(India), Mysore Local Center</li>
+              <li>Life Member Karnataka Electricity Board Engineers Association.</li>
+              <li>Fellow of Institution of Engineers(India), Mysore Local Center.</li>
             </ul>
             </Accordion.Body>
           </Accordion.Item>
           </Accordion>
-          </MDBCol>
-          <MDBCol></MDBCol>
+          {/* </MDBCol>
+          <MDBCol></MDBCol> */}
         </MDBRow>
         <br></br>
         
