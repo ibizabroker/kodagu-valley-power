@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { MDBContainer } from 'mdbreact'
+import "../css/Footer.css"
 
 export default class Footer extends Component {
     render() {
@@ -6,13 +8,9 @@ export default class Footer extends Component {
             <div>
               <footer class="text-center text-lg-start elegant-color text-white">  
                 
-                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> 
+                <section class="d-flex justify-content-center p-4 border-bottom"> 
 
-                  <div class="me-5 d-none d-lg-block">
-                    <span>Get connected with me on social networks:</span>
-                  </div>
-
-                  <div>
+                  <div className="marginleft">
                     <a href="https://www.facebook.com/rathan.kilar" class="me-4 text-reset">
                       <i class="fab fa-facebook-f"></i>
                     </a>
@@ -29,27 +27,26 @@ export default class Footer extends Component {
 
                 </section>
 
-                <section class="">
-
-                  <div class="container text-md-start mt-5">
+                  {/* <div class="container text-md-start mt-5"> */}
+                  <MDBContainer className="mt-5 text-center">
                     <div class="row mt-3">
 
-                      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
                           kodagu valley power
                         </h6>
-                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "195px" }} />
+                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "190px" }} />
                         <p>
-                          Study of distribution system of Rural Karnataka
-                           and recommend remidial measures in public interest.
+                          Study of distribution system of Rural Karnataka 
+                          and recommend remedial measures in public interest.
                         </p>
                       </div>
 
-                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
                           Projects
                         </h6>
-                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "85px" }} />
+                        <hr className="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "77px" }} />
                         <p>
                           <a href="https://docs.google.com/spreadsheets/d/1Wy37XSYDgFlaHExz3TOlZS21RScgMQtX/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true" class="text-reset">Project 1</a>
                         </p>
@@ -58,7 +55,7 @@ export default class Footer extends Component {
                         </p>
                       </div>
 
-                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
                           Contact
                         </h6>
@@ -67,23 +64,22 @@ export default class Footer extends Component {
                           <i class="fas fa-envelope me-3"></i>
                           ratankilar@gmail.com
                         </p>
-                        <p>
+                        {/* <p>
                           <i class="fas fa-envelope me-3"></i>
                           ratan_babu@hotmail.com
-                        </p>
+                        </p> */}
                         <p><i class="fas fa-phone me-3"></i>+ 91 94487 20722</p>
                       </div>
 
-                    </div>
+                    {/* </div> */}
+                    
                   </div>
-
-                </section>
-
+                  </MDBContainer>
                 <div class="text-center p-4 elegant-color-dark">
                   © 2021 Copyright:
                   <strong> KODAGU VALLEY POWER </strong>
                 </div>
-                
+
               </footer>
             </div>
           );

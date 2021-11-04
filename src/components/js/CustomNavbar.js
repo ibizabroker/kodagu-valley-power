@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/CustomNavbar.css"
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse} from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse } from "mdbreact";
 import { Link } from 'react-router-dom';
 
 class NavbarPage extends Component {
@@ -20,7 +20,7 @@ render() {
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
+          <MDBNavbarNav right>
             <MDBNavItem>
               <MDBNavLink to="/">HOME</MDBNavLink>
             </MDBNavItem>

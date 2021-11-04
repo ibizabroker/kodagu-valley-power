@@ -143,9 +143,9 @@ const Home = () => {
             <p className="grey-text">
               <ul className="text-left">
                 <li>Proposed to tap Madikeri-Virajpet 66 transmission line by LILO.</li>
-                <li>Will improve voltage and power system to agriculturist of Arekadu, Kattemadu, Hoskeri, Maragodu, Hulithada, Hakatthuru, Biligeri Villages.</li>
+                <li>Will improve voltage and power system to agriculturists of Arekadu, Kattemadu, Hoskeri, Maragodu, Hulithada, Hakatthuru, Biligeri Villages.</li>
                 <li>Will reduce energy loss to the tune of 6 Lakh Units per Annum to CESCOM and promote industrial growth.</li>
-                <li>Facilitate storage of Horticulture products(Anthoruim) and other exotic fruits.</li>
+                <li>Facilitate storage of Horticulture products(Anthurium) and other exotic fruits.</li>
                 <li>Provide facility for coffee curing and processing units.</li>
               </ul>
             </p>
@@ -186,8 +186,8 @@ const Home = () => {
             <h4 className="font-weight-bold my-3">NAPOKLU Hobli</h4>
             <p className="grey-text">
               <ul className="text-left">
-              <li>At present Napoklu Hobli Headquaters and surrounding villages of Hoddur, Nelaji, Parane, Balamuri and fed from Murnad substation.</li>
-              <li>To conduct ficibility study and audit of feeders and examine the needs for improvements.</li>
+              <li>At present Napoklu Hobli Headquarters and surrounding villages of Hoddur, Nelaji, Parane, Balamuri and fed from Murnad substation.</li>
+              <li>To conduct feasibility study and audit of feeders and examine the needs for improvements.</li>
               </ul>
             </p>
             <MDBBtn 
