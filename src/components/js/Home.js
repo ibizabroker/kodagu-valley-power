@@ -153,7 +153,7 @@ const Home = () => {
               color="black" 
               size="md" 
               className="white-text"
-              href=""  
+              href="https://docs.google.com/document/d/16YA5SFjQmKOJdpNN8WzuT9l-wQ5BcqqvzK2XmQAQr-Q/edit?usp=sharing"  
             >
               Present system
             </MDBBtn>
@@ -161,7 +161,7 @@ const Home = () => {
               color="black" 
               size="md" 
               className="white-text"
-              href=""  
+              href="https://docs.google.com/document/d/16YA5SFjQmKOJdpNN8WzuT9l-wQ5BcqqvzK2XmQAQr-Q/edit?usp=sharing"  
             >
               After Improvement
             </MDBBtn>

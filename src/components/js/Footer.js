@@ -51,7 +51,7 @@ export default class Footer extends Component {
                           <a href="https://docs.google.com/spreadsheets/d/1Wy37XSYDgFlaHExz3TOlZS21RScgMQtX/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true" class="text-reset">Project 1</a>
                         </p>
                         <p>
-                          <a href="#!" class="text-reset">Project 2</a>
+                          <a href="https://docs.google.com/document/d/16YA5SFjQmKOJdpNN8WzuT9l-wQ5BcqqvzK2XmQAQr-Q/edit?usp=sharing" class="text-reset">Project 2</a>
                         </p>
                       </div>
 
