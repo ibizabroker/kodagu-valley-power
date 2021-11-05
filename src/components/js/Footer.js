@@ -53,6 +53,9 @@ export default class Footer extends Component {
                         <p>
                           <a href="https://docs.google.com/document/d/16YA5SFjQmKOJdpNN8WzuT9l-wQ5BcqqvzK2XmQAQr-Q/edit?usp=sharing" class="text-reset">Project 2</a>
                         </p>
+                        <p>
+                          <a href="https://docs.google.com/document/d/1XbAQzY5cIufBh9gYyB8zb0efyEZRZYhKHHQuqP8Is7M/edit?usp=drivesdk" class="text-reset">Project 3</a>
+                        </p>
                       </div>
 
                       <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
