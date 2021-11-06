@@ -110,6 +110,14 @@ const Home = () => {
               color="black" 
               size="md" 
               className="white-text" 
+              href="https://docs.google.com/document/d/19Au2zza1G8mcNUpkiNMq-BASIJ3uYLfw/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
+            >
+              Public Appeal
+            </MDBBtn>
+            <MDBBtn 
+              color="black" 
+              size="md" 
+              className="white-text" 
               href="https://docs.google.com/spreadsheets/d/1rX6Sm-TkFH6s_eHrrXxcPG05Gy8mcOCP/edit?usp=drivesdk&ouid=110030474125730334536&rtpof=true&sd=true"
             >
               KPTCL Write Up
