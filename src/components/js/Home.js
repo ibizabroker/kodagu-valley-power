@@ -130,6 +130,14 @@ const Home = () => {
             >
               After Improvement
             </MDBBtn>
+            <MDBBtn
+              color="black"
+              size="md"
+              className="white-text"
+              href="https://drive.google.com/file/d/1nytR7scHKapdZiFoL9QpDIlmKdWqdEal/view?usp=sharing"
+            >
+              Project Status
+            </MDBBtn>
           </MDBCardBody>
           </MDBCard>
         </MDBCol>
